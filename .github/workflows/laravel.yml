@@ -51,4 +51,4 @@ jobs:
           git checkout -f 
           git pull origin main
           touch database/database.sqlite
-          ddoker compose up -d
+          docker compose up -d
